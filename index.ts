@@ -1,2 +1,2 @@
 // code
-export { Example } from "./src/example/example";
+export { Message } from "./src/message/message";

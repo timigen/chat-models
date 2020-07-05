@@ -1,5 +1,5 @@
 {
-  "name": "typescript-library-template",
+  "name": "chat-models",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/timigen/typescript-library-template.git"
+    "url": "git+https://github.com/timigen/chat-models.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/timigen/typescript-library-template/issues"
+    "url": "https://github.com/timigen/chat-models/issues"
   },
-  "homepage": "https://github.com/timigen/typescript-library-template#readme",
+  "homepage": "https://github.com/timigen/chat-models#readme",
   "devDependencies": {
     "@types/jest": "^24.0.24",
     "@types/node": "^12.12.21",
