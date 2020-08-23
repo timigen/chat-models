@@ -1,7 +1,5 @@
-# Typescript Library Template
+# Chat Models
 ---
-
-Canonical typescript library template
 
 ## Commands
 
