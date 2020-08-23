@@ -8,3 +8,5 @@ var event_1 = require("./src/event/event");
 exports.Event = event_1.Event;
 var event_types_1 = require("./src/event/event-types");
 exports.EventTypes = event_types_1.EventTypes;
+var room_1 = require("./src/room/room");
+exports.Room = room_1.Room;
