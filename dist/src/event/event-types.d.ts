@@ -1,6 +1,7 @@
 export declare enum EventTypes {
+    Error = "error",
     History = "history",
-    Message = "message",
     Info = "info",
-    Error = "error"
+    Join = "join",
+    Message = "message"
 }
