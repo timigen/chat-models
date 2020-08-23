@@ -6,6 +6,7 @@ export class Colors {
     "magenta",
     "purple",
     "plum",
-    "orange"
+    "orange",
+    "yellow"
   ];
 }
