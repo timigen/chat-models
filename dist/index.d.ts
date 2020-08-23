@@ -1,6 +1,6 @@
-export { Client } from "./src/client/client";
+export { Client, IClient } from "./src/client/client";
 export { Colors } from "./src/colors/colors";
-export { Event } from "./src/event/event";
+export { Event, IEvent } from "./src/event/event";
 export { EventTypes } from "./src/event/event-types";
 export { Message } from "./src/message/message";
-export { Room } from "./src/room/room";
+export { Room, IRoom } from "./src/room/room";
