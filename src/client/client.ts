@@ -13,9 +13,8 @@ export class Client implements IClient {
   public name: string;
   public connection: any;
 
-  constructor(name: string, connection: any) {
-    this.id = uuidv4();
-    this.name = name;
+  constructor(id: string, connection: any) {
+    this.id = id;
     this.connection = connection;
     this.joined = new Date().toISOString();
   }
