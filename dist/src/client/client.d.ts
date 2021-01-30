@@ -9,5 +9,5 @@ export declare class Client implements IClient {
     joined: string;
     name: string;
     connection: any;
-    constructor(name: string, connection: any);
+    constructor(id: string, connection: any);
 }
