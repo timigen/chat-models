@@ -1,12 +1,20 @@
 export class Colors {
   public defaults = [
-    "red",
-    "green",
-    "blue",
-    "magenta",
-    "purple",
-    "plum",
-    "orange",
-    "yellow"
+    "Aquamarine",
+    "Crimson",
+    "CornflowerBlue",
+    "DarkCyan",
+    "GoldenRod",
+    "LightSalmon",
+    "SlateGrey",
+    "Turquoise",
+    "Red",
+    "Green",
+    "Blue",
+    "Magenta",
+    "Purple",
+    "Plum",
+    "Orange",
+    "Yellow"
   ];
 }
