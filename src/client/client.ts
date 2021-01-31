@@ -5,6 +5,7 @@ export interface IClient {
   joined: string;
   name: string;
   connection: any;
+  color: string;
 }
 
 export class Client implements IClient {
@@ -12,10 +13,12 @@ export class Client implements IClient {
   public joined: string;
   public name: string;
   public connection: any;
+  public color: string;
 
-  constructor(id: uuidv4, connection: any) {
+  constructor(id: uuidv4, connection: any, color: string) {
     this.id = id;
     this.connection = connection;
     this.joined = new Date().toISOString();
+    this.color = color;
   }
 }
