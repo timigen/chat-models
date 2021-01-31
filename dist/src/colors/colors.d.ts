@@ -1,3 +1,3 @@
 export declare class Colors {
-    defaults: string[];
+    static defaults: string[];
 }

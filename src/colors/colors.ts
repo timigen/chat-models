@@ -1,5 +1,5 @@
 export class Colors {
-  public defaults = [
+  public static defaults = [
     "Aquamarine",
     "Crimson",
     "CornflowerBlue",
