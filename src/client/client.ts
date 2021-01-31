@@ -8,12 +8,12 @@ export interface IClient {
 }
 
 export class Client implements IClient {
-  public id: string;
+  public id: uuidv4;
   public joined: string;
   public name: string;
   public connection: any;
 
-  constructor(id: string, connection: any) {
+  constructor(id: uuidv4, connection: any) {
     this.id = id;
     this.connection = connection;
     this.joined = new Date().toISOString();
