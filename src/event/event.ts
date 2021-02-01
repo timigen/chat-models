@@ -6,6 +6,7 @@ export interface IEvent {
   rendered: string;
   data: any;
   type: string;
+  color: string;
 }
 
 export class Event implements IEvent {
@@ -14,6 +15,7 @@ export class Event implements IEvent {
   public rendered: string;
   public data: any;
   public type: string;
+  public color: string;
 
   constructor(type: string, data: any) {
     this.id = uuidv4();
