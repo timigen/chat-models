@@ -3,4 +3,5 @@ export interface Message {
   name: string;
   text: string;
   created: string;
+  color: string;
 }
