@@ -1,6 +1,7 @@
 export interface Message {
-    author: string;
     clientId: string;
+    name: string;
     text: string;
-    occurrence: string;
+    created: string;
+    color: string;
 }
